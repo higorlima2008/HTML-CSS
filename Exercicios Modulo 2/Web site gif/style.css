@@ -1,0 +1,59 @@
+
+
+body 
+{
+    background-image: linear-gradient(to right,#4118A8,#6338d1,#4800ff);
+    animation: colors 15s ease infinite;
+    background-size: 300% 300%;
+}
+@keyframes colors
+{
+  0%
+  {
+    background-position: 0% 50%;
+  }
+  50%
+  {
+    background-position: 100% 50%;
+  }
+  100%
+  {
+    background-position: 0% 50%;
+  }
+}
+:root
+{
+    --cor1: #4118A8;
+    --cor2:  #6338d1; 
+    --cor3: #4800ff;
+}
+img 
+{
+   margin: 0 auto;
+   display: block;
+   object-fit: auto;
+   max-width: 30%;
+   max-height: 30%;
+   padding: 0px;
+   min-width: 40%;
+}
+h5
+{
+    color: rgb(199, 53, 243);
+    
+    font-family: 'Aboreto';
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    text-align: center;
+}
+div
+{
+  height: 20px;
+  width: 100px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+ box-shadow: 3px 4px #8859ff;
+ 
+
+}

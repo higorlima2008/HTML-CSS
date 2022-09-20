@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Card</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=DynaPuff:wght@400;600&family=Rubik+Dirt&family=Shadows+Into+Light&display=swap');
+
+        p {
+            font-family: 'DynaPuff';
+        }
+
+        h3 {
+            font-family: 'DynaPuff';
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <img src="Screenshot_12.png" alt="Neve">
+                <h3> 
+                    <p>Lugar bacana</p>
+                    <p>Más Muito frio</p>
+                </h3>
+      
+                <a href="página alaska.html">Mais Informações</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                  <img src="Screenshot_14.png" alt="Lugar bonito">
+                  <h3>
+                    <p>Lugar</p>
+                    <p>Muito Bonito</p>
+                  </h3>
+                <a href="página bonito.html">Mais Informações</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <img src="Meta de vida 2.png" alt="Meta de vida">6
+                <h3>
+                    <p>Minha Meta</p>
+                    <p>De Vida</p>
+                </h3>
+                
+                <a href="página meta.html">Mais Informações</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true
+
+
+        });
+    </script>
+</body>
+
+</html>

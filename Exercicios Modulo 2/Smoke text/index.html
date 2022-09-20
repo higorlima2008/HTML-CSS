@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smoke text</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=DynaPuff:wght@400;600&family=Rubik+Dirt&family=Shadows+Into+Light&display=swap');
+        p{
+            font-family: 'DynaPuff';
+            top: -400px;
+            right: 800px;
+            
+        }
+    
+        section {
+            background: url(fundo001/Screenshot_26.png);
+            background-size: 100%;
+
+        }
+
+    </style>
+</head>
+<body>
+    
+    
+    <section>
+        <p class="text">
+            A vida passa muito Rápido....... Então aproveite Ela...... antes que se esqueça do seu sonho.....
+         </p>
+            
+        
+    </section>
+    <script>
+        const text = document.querySelector('.text');
+        text.innerHTML = text.textContent.replace(/\S/g,"<span>$&</span>");
+
+        const letters = document.querySelectorAll('span');
+        for (let i=0; i<letters.length;i++){
+            letters[i].addEventListener("mouseover",function(){
+                letters[i].classList.add('active')
+            })
+        }
+    </script>
+</body>
+</html>

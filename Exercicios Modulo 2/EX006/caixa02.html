@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=DynaPuff:wght@400;600&family=Rubik+Dirt&family=Shadows+Into+Light&display=swap');
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 10px black;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 10px black;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        nav {
+            background-color: rgb(93, 93, 93);
+            padding: 3px;
+            box-shadow: 1px 5px 10px black;
+            border-radius: 10px;
+        }
+
+        nav {}
+
+        nav>a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            text-shadow: 1px 1px 1px black;
+        }
+
+        nav>a:hover {
+            text-decoration: underline;
+
+        }
+
+        article>aside {
+            background-color: rgb(174, 173, 173);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin: 0px;
+            text-shadow: 1px 1px 2px white;
+        }
+
+        footer>a {
+            color: white;
+            font-family: 'DynaPuff';
+            font-size: 25px;
+
+        }
+
+        h1 {
+            font-family: 'DynaPuff';
+            color: rgb(57, 57, 57);
+
+        }
+
+        article>a {
+            background: #fff;
+            display: inline-block;
+            padding: 8px 20px;
+            margin-top: 15px;
+            color: #000;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: 500;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            font-family: 'DynaPuff';
+        }
+
+        h3 {
+            font-size: 30px;
+            color: black;
+            font-family: 'Rubik Dirt';
+        }
+
+        article>aside {
+            box-shadow: 1px 1px 5px black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="Jornal-html.png" alt="Jornal PNG">
+
+        <h3 class="nome">NEWSTIE</h3>
+
+        <h1>Veja as Ultimas Notícias em Primeira Mão</h1>
+        <nav>
+
+            <a href="#">Inicio/</a>
+            <a href="https://g1.globo.com/ultimas-noticias/ target=_blank">Ultimas Notícias/</a>
+            <a href="#">Comentários/</a>
+            <a href="#">Escreva sua Notícia!/</a>
+            <a href="#">Entre em Contato/</a>
+        </nav>
+
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes / Política / Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia 1: Amazonas Esta acabando</h2>
+                <p>O desmatamento na Amazônia em 2021 foi o pior em 10 anos, de acordo com o Instituto do Homem e Meio
+                    Ambiente da Amazônia (Imazon). Os dados apontam que mais de 10 mil quilômetros de mata nativa foram
+                    destruídos no ano passado — um crescimento de 29% em relação a 2020.</p>
+                <a href="https://www.cnnbrasil.com.br/nacional/desmatamento-na-amazonia-em-2021-e-o-maior-dos-ultimos-10-anos/
+                    target=_blank">Continue Lendo</a>
+                <aside>
+                    <p>Artigo escrito por Daniel Souza</p>
+                </aside>
+                <h2>Notícia 2 : Brasil esta em crise?</h2>
+                <p>Segundo pesquisa feita pelo BTG Pactual e FSB Pesquisa, 62% dos brasileiros acreditam que o Brasil
+                    está em crise econômica, com dificuldade de retomada. Na outra ponta, 32% dos entrevistados
+                    consideram que o país vem conseguindo superar a situação. Outros 5% avaliam que a economia vive um
+                    momento bom.</p>
+                <a href="https://fdr.com.br/2022/04/27/brasil-esta-em-crise-economica-6-em-cada-10-brasileiros-dizem-que-sim/
+                    target=_blank">Continue Lendo</a>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+                <h2>Notícia 3: Queimadas Aumentaram</h2>
+                <p>O Brasil registra hoje mais da metade dos focos de incêndios florestais de toda a América do Sul. Em
+                    agosto, o aumento das queimadas no país chegou a quase 20% em comparação com o mesmo mês do ano
+                    passado. O cenário preocupa especialistas.
+
+                    Dados coletados pelos satélites do Instituto Nacional de Pesquisas Espaciais (INPE) significam um
+                    alerta: o número de queimadas no Brasil está aumentando – e muito.</p>
+                <a href="https://www.cnnbrasil.com.br/nacional/queimadas-no-brasil-aumentam-17-no-mes-de-agosto/
+                    target=_blank">Continue Lendo</a>
+                <aside>
+                    <p>Artigo escrito por David Hugo</p>
+                </aside>
+                <h2>Notícia 4: Aquecimento global Aumentando</h2>
+                <p>Os últimos seis anos foram os mais quentes registrados desde 1880, sendo 2016, 2019 e 2020 os três
+                    primeiros, de acordo com um comunicado de imprensa da Organização Meteorológica Mundial (OMM) em 15
+                    de janeiro. O ano 2020 foi de 1,2°C acima das temperaturas da era pré-industrial (1880).
+
+                    A OMM prevê que há uma probabilidade de 20% de que o aumento da temperatura exceda temporariamente
+                    os 1,5°C já a partir de 2024.</p>
+                <a href="https://www.unep.org/pt-br/noticias-e-reportagens/reportagem/o-aumento-alarmante-da-temperatura-global#:~:text=Os%20%C3%BAltimos%20seis%20anos%20foram,OMM)%20em%2015%20de%20janeiro.
+                    target=_blank">Continue Lendo</a>
+                <aside>
+                    <p>Artigo escrito por Erick Azevedo</p>
+                </aside>
+                <h2>Notícia 5: Vida digital E seus Malefícios</h2>
+                <p>De acordo com a pesquisa, as pessoas no Brasil passam, em média, nove horas e vinte e nove minutos
+                    por dia conectados à internet. Um índice que, ao ser delineado em dias, aponta que o brasileiro
+                    passa 145 dias inteiros, por ano, navegando na internet.Um recurso de facilidade no dia a dia, mas
+                    que, segundo o psicólogo do Kurotel – Centro Contemporâneo de Saúde e Bem-Estar, Michael Zanchet, ao
+                    ser usado em excesso pode fazer mal.
+                </p>
+                <a href="https://www.em.com.br/app/noticia/bem-viver/2020/07/30/interna_bem_viver,1171488/uso-de-tecnologia-em-excesso-pode-ser-prejudicial-a-saude.shtml
+                    target=_blank">Continue Lendo</a>
+                <aside>
+                    <p>Artigo escrito por Daniel Souza</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido Por</p><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-16-aula-4-grouping-tags-em-html5/
+            target=_blank">Higor Carvalho Lima</a>
+
+    </footer>
+    <article class="vt">
+        <button class="scrollTop" onclick="backTop();">
+            <img src="pngegg.png" alt="Voltar ao topo">
+
+        </button>
+        <div class="container">
+        </div>
+    </article>
+    <script>
+        window.addEventListener('scroll', function () {
+            let scroll = document.querySelector('.scrollTop')
+            scroll.classList.toggle('active', window.scrollY > 450)
+        })
+
+        function backTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            })
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+:root
+{
+ --cor1:#BD60E6 ;
+ --cor2:#0026E6;
+ --cor3: #E651D3;
+ --cor4: #AB34E6;
+}
+body
+{
+    background-color: black; 
+    margin: 0 auto;
+    display: block;
+    display: flexbox;
+}
+div 
+{
+    width: 400px;
+    height: 400px;
+    border: 10px solid #0E02E6;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: repeating-radial-gradient(circle closest-side , #E651D3 30%, #0026E6 60%) ;
+    display: block;
+    margin-left:  0 auto;
+    margin-right: 0 auto;
+    position: relative;
+    display: flexbox;
+    
+   
+    
+}

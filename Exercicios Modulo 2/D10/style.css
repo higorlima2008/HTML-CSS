@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+:root {
+    --cor0: #A1E825;
+    --cor1: #61F227;
+    --cor2: #2EDB37;
+    --cor3: #27F26B;
+    --cor4: #25E89D;
+    --cor5: #6DDB6C;
+    --cor6: #275950;
+    --cor7: #91F2E9;
+    --cor8: #41BFB3;
+    --cor9: #2A8C82;
+    --cor10: #FF6B1A;
+    --cor11: #00B3AD;
+}
+
+
+
+
+body {
+    margin: 0px;
+    background-color: aquamarine;
+}
+
+nav>h1 {
+    text-align: center;
+    padding: 5px;
+
+    font-family: 'DynaPuff';
+    color: white;
+}
+
+nav>h4 {
+    text-align: center;
+    color: white;
+}
+
+header {
+
+    background-image: linear-gradient(to bottom, rgb(121, 245, 164), rgb(7, 139, 40),
+            rgb(25, 69, 34));
+    border-radius: 5px;
+
+
+
+}
+
+nav>a {
+    color: white;
+    text-decoration: none;
+    font-family: 'DynaPuff';
+    padding: 5px;
+    display: flexbox;
+    font-size: small;
+}
+
+main {
+
+    background-color: white;
+    padding: 10px;
+    margin: 0px;
+    box-shadow: 1px 1px 10px black;
+    width: 80%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@font-face {
+    font-family: 'idroid';
+    src: url(idroid.otf);
+}
+
+main>h2 {
+    font-family: 'idroid';
+    font-size: 30px;
+    color: green;
+}
+
+main>h5 {
+    color: rgb(74, 74, 74);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.h22 {
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(149, 235, 140), rgb(121, 227, 158));
+
+}
+
+main>img {
+    width: 80%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    display: flex;
+}
+
+iframe {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 30px;
+    width: 65%;
+    size: 100%;
+
+
+}
+
+div {
+    background-color: green;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 10px;
+    width: 90%;
+
+
+}
